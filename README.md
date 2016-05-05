@@ -4,7 +4,7 @@ An ESLint [Shareable Config](https://eslint.org/docs/developer-guide/shareable-c
 
 [ **IMPORTANT** (or TL;BR - Too Long But Read!) ]
 
-You *DO NOT NEED TO INSTALL* this if you are not using experimental language features such as [async/await](https://tc39.github.io/ecmascript-asyncawait), [decorators](https://github.com/wycats/javascript-decorators), etc. **ESLint** has native support of **ES2015** and **ES2015** (a.k.a. **ES6** and **ES7** respectively).
+You *DO NOT NEED TO INSTALL* this if you are not using experimental language features such as [async/await](https://tc39.github.io/ecmascript-asyncawait), [decorators](https://github.com/wycats/javascript-decorators), etc. **ESLint** has native support of **ES2015** and **ES2016** (a.k.a. **ES6** and **ES7** respectively).
 
 Or in other words, *ONLY INSTALL THIS* if you are using **Babel** with any of the [Experimental Presets](https://babeljs.io/docs/plugins/#stage-x-experimental-presets-).
 
