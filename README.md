@@ -1,4 +1,4 @@
-# @mgtitimoli / eslint-config
+# @mgtitimoli / eslint-config-babel
 
 An ESLint [Shareable Config](https://eslint.org/docs/developer-guide/shareable-configs) that enables the integration with :sparkles:*The Marvelous* [Babel transpiler](https://babeljs.io/):sparkles:
 
@@ -11,10 +11,14 @@ Or in other words, *ONLY INSTALL THIS* if you are using **Babel** with any of th
 ## Installation
 
 ```
-$ npm install --save-dev eslint babel-eslint eslint-plugin-babel @mgtitimoli/eslint-config-babel
+$ npm install --save-dev \
+eslint \
+babel-eslint \
+eslint-plugin-babel \
+@mgtitimoli/eslint-config-babel
 ```
 
-> :scream: **What?!** Why I also need to install all these packages?!
+> :scream: **What?!** Why do I also need to install all these packages?!
 
 I completely understand your feeling, so let me briefly enumerate the reasons of why they are required:
 
