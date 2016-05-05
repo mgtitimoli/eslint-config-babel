@@ -2,7 +2,7 @@
 
 The settings specified in this config have the same values than the ones in [@mgtitimoli/eslint-config/es6](https://github.com/mgtitimoli/eslint-config/es6).
 
-:confused: Hm... You might be wondering why we are replicating the same rules here... Well, since this config setups **Babel** for parsing the code, we need to disable some rules that heavily depend on the structure that the native parser generates, and this is when the [eslint-plugin-babel](https://github.com/babel/eslint-plugin-babel) enters into the scene. Taken from their page:
+:confused: Hm... You might be wondering why we are replicating the same rules here... Well, since this config setups **Babel** to parse the code, we need to disable some rules that heavily depend on the structure (AST) that the native parser generates, and this is when the [eslint-plugin-babel](https://github.com/babel/eslint-plugin-babel) enters into the scene. Taken from their page:
 
 > **babel-eslint** does a great job at adapting **eslint** for use with **Babel**, but it can't change the built in rules to support experimental features. **eslint-plugin-babel** re-implements problematic rules so they do not give false positives or negatives.
 
