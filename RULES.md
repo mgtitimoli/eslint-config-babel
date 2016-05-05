@@ -6,7 +6,7 @@ The settings specified in this config have the same values than the ones in [@mg
 
 > **babel-eslint** does a great job at adapting **eslint** for use with **Babel**, but it can't change the built in rules to support experimental features. **eslint-plugin-babel** re-implements problematic rules so they do not give false positives or negatives.
 
-This is why we need to specify 2 rules for each behaviour: one for turning off the default one, and the other to turn on the one provided by **eslint-plugin-babel** that enables the same beviour. The good thing is that, they have given them the same name, and they can be configured with the same options! (go and give [eslint-plugin-babel](https://github.com/babel/eslint-plugin-babel) a :star:, I will be waiting here :wink:)
+This is why we need to specify 2 rules for each behaviour: one for turning off the default one, and the other to turn on the one provided by **eslint-plugin-babel** that enables the same beviour. The good thing is they named them the same as the originals, and they are configured using the same options! (go and give [eslint-plugin-babel](https://github.com/babel/eslint-plugin-babel) a :star:, I will be waiting here :wink:)
 
 ## [arrow-parens](http://eslint.org/docs/rules/arrow-parens)
 
