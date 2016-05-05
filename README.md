@@ -61,30 +61,11 @@ They couldn't have explained better in their page:
 }
 ```
 
-[ **DISCLAIMER** ]
-
-I decided not to extend [eslint:recommended](http://eslint.org/docs/user-guide/migrating-to-1.0.0) configuration to support setups where this is not desired (I personally have not found any one yet, but it might appear... *long silence*... someday...). Anyway, if you want to use it together with this config, and I **highly** recommend you to do that, it is as simple as using on each part of the documentation where it says:
-
-```javascript
-"@mgtitimoli/eslint-config-babel"
-```
-
-the following instead:
-
-```javascript
-[
-    "eslint:recommended",
-    "@mgtitimoli/eslint-config-babel"
-]
-```
-
-> We can do this since **ESLint** does not restrict you to [extend](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) just one configuration file.
-
 ## About
 
 Apart of enabling the integration with **Babel**, this config also sets some settings which you can see them directly viewing the [main package file](./index.js), or having a look to the [Rules Readme](./RULES.md).
 
-I could have included more settings, but instead of doing that, I have distributed them into the following packages:
+## Other configurations
 
 - [@mgtitimoli/eslint-config](https://github.com/mgtitimoli/eslint-config): Native rules
 - [@mgtitimoli/eslint-config-react](https://github.com/mgtitimoli/eslint-config-react): React rules (the ones provided by [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react))
