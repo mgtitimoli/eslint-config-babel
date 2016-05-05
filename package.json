@@ -1,0 +1,28 @@
+{
+  "name": "@mgtitimoli/eslint-config-babel",
+  "version": "0.1.0",
+  "description": "An ESLint Shareable Config that enables the integration with the marvelous Babel transpiler",
+  "license": "Unlicense",
+  "author": {
+    "name": "Mauro Titimoli",
+    "email": "mgtitimoli@gmail.com",
+    "url"  : "https://github.com/mgtitimoli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mgtitimoli/eslint-config-babel"
+  },
+  "bugs": {
+    "url": "http://github.com/mgtitimoli/eslint-config-babel/issues"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "main": "index.js",
+  "peerDependencies": {
+    "babel-eslint"       : "^6.0.3",
+    "eslint"             : "^2.8.0",
+    "eslint-plugin-babel": "^3.2.0"
+  }
+}
