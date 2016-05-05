@@ -1,6 +1,6 @@
 {
   "name": "@mgtitimoli/eslint-config-babel",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An ESLint Shareable Config that enables the integration with the marvelous Babel transpiler",
   "license": "Unlicense",
   "author": {
