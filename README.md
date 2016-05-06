@@ -67,6 +67,8 @@ Apart of enabling the integration with **Babel**, this config also sets some set
 
 ## Other configurations
 
+You might also be interested in the following configurations:
+
 - [@mgtitimoli/eslint-config](https://github.com/mgtitimoli/eslint-config): Native rules
 - [@mgtitimoli/eslint-config-react](https://github.com/mgtitimoli/eslint-config-react): React rules (the ones provided by [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react))
 
