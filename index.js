@@ -3,7 +3,7 @@ module.exports = {
     "parserOptions": {
         "sourceType": "module"
     },
-    "plugins": [ "eslint-plugin-babel" ],
+    "plugins": [ "babel" ],
     "rules"  : {
         "strict": "off",
 
